@@ -1,0 +1,21 @@
+# Processed data / artifacts (DO NOT UPLOAD)
+prepped/
+data/
+dataset/
+*.csv
+*.npz
+*.joblib
+
+# Models / logs
+checkpoints/
+runs/
+logs/
+*.pt
+*.pth
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+env/
