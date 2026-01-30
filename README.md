@@ -1,4 +1,5 @@
-# HLCDA: Hierarchical Local–Global Co-Attention for APT Detection
+# An APT Detection Scheme Based on a Hierarchical Co-Attention
+Transformer
 
 This repository provides the implementation of **HLCDA (Hierarchical Local–Global Co-Attention)** for robust and efficient **Advanced Persistent Threat (APT)** detection from sequence-based network traffic features.
 
