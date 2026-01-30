@@ -39,7 +39,7 @@ We evaluate HLCDA on three widely used, real-world intrusion detection benchmark
 
 ### 1) DAPT-2020
 - Task: Binary classification (Normal vs. APT/Attack) using sequence-based flow/session features.
-- **Preprocessing (high-level):
+- Preprocessing (high-level):
   1. Flow/session construction: raw records are grouped into sessions and converted into fixed-length sequences with `T=8` time steps (padding/truncation).
   2. Feature selection & ordering: a consistent feature list is built and stored in the NPZ key `features`.
   3. Label mapping: benign traffic is mapped to `0`, attacks/APT to `1`.
