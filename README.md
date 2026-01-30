@@ -28,13 +28,12 @@ The training/evaluation pipeline also includes:
 ---
 
 ## Requirements
-- Python **3.9+**
+- Python 3.9+
 - PyTorch (GPU recommended, but CPU works)
 - NumPy, scikit-learn, matplotlib, seaborn, joblib
 
-Install dependencies:
-```bash
-pip install -r requirements.txt
+----
+
 ## Benchmarks used in the paper
 We evaluate HLCDA on three widely used, real-world intrusion detection benchmarks:
 
@@ -48,7 +47,7 @@ We evaluate HLCDA on three widely used, real-world intrusion detection benchmark
 
 ### 2) UNSW-NB15
 - Task: Binary classification (Normal vs. Attack).
-- **Preprocessing (high-level):
+- Preprocessing (high-level):
   1. Cleaning: remove invalid rows, handle missing/inf values.
   2. Encoding: categorical fields (if any) are encoded consistently (e.g., one-hot / label encoding).
   3. Normalization: continuous features are scaled using training statistics only.
@@ -75,5 +74,5 @@ All three benchmarks are converted to a unified NPZ format expected by the noteb
 - `features`: list of `F` feature names (stored in a fixed order)
 - `T`: sequence length (e.g., `8`)
 
-> **Note: Datasets and generated artifacts are not included in this repository.  
+> Note: Datasets and generated artifacts are not included in this repository.  
 Users should download each dataset from its official source and run the preprocessing pipeline to generate the NPZ file (e.g., `sessions_T8.npz`), then update `NPZ_PATH` in the notebook accordingly.
