@@ -4,7 +4,7 @@ Please cite this article as:
 
 M. Basi, T. Shang, and C. Yuhang, “An APT Detection Scheme Based on a Hierarchical Co-Attention Transformer,” 
 Journal of Computer and System Sciences, 2026. 
-https://doi.org/10.1016/j.jcss.2026.1038137
+https://doi.org/10.1016/j.jcss.2026.103813
 
 This repository provides the implementation of **HLCDA (Hierarchical Local–Global Co-Attention)** for robust and efficient **Advanced Persistent Threat (APT)** detection from sequence-based network traffic features.
 
